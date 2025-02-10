@@ -1,10 +1,6 @@
 # Vessel_Trajectory_Prediction
 
-Unofficial Implementation of Paper: __[Deep Learning Methods for Vessel Trajectory
-Prediction based on Recurrent Neural Networks] (https://ieeexplore.ieee.org/document/9492102)__
-
-Unofficial Implementation of Paper: [Unofficial Implementation of Paper: Deep Learning Methods for Vessel Trajectory Prediction based on Recurrent Neural Networks](https://ieeexplore.ieee.org/document/9492102)
-
+Unofficial Implementation of Paper: _[Unofficial Implementation of Paper: Deep Learning Methods for Vessel Trajectory Prediction based on Recurrent Neural Networks](https://ieeexplore.ieee.org/document/9492102)_
 
 ![vesselTracking](https://github.com/user-attachments/assets/8dd6ef95-6084-4a32-8e5a-27651a37f904)
 
