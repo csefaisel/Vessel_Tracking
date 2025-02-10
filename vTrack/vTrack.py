@@ -53,7 +53,7 @@ class vTrack(nn.Module):
                     nn.init.kaiming_uniform_(param, nonlinearity='relu')
                 elif 'bias' in name:
                     nn.init.zeros_(param)
-
+        # Encoder and Decoder weights initialized with the orthogonal method
         for lyr in [self.enc, self.dec]:
             for name, param in lyr.named_parameters():
                 if 'weight' in name:
