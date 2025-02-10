@@ -6,7 +6,7 @@ Unofficial Implementation of Paper: _[Unofficial Implementation of Paper: Deep L
 
 ## Steps to use this repo:
 
-- ### import necessary modules
+- ### Import necessary modules
   > __import torch__ \
   > __from vTrack.vTrack import vTrack__
 
@@ -18,10 +18,10 @@ Unofficial Implementation of Paper: _[Unofficial Implementation of Paper: Deep L
   > __seq_length = (12, 6)__ _# 12 input sequences, 6 output sequences_ \
   > __batch_size = 8__
 
-- ### input sample 
+- ### Input sample 
   > __x = torch.rand(batch_size, seq_length[0], input_size)__ _# (8, 12, 4)_
 
-- ### create object of the Model
+- ### Create object of the Model
   > __model = vTrack(input_size, hidden_size, num_layers, output_size, seq_length[1])__
 
 - ### Feed the sample to the Model
