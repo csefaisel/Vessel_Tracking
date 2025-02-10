@@ -26,4 +26,4 @@ __x = torch.rand(batch_size, seq_length[0], input_size)__ _# (8, 12, 4)_
 __model = vTrack(input_size, hidden_size, num_layers, output_size, seq_length[1])__
 
 ### Feed the sample to the Model
-__out = model(x)__ _# (batch, out_seq_length, output_size) : (8, 6, 2)_
+__out = model(x)__ _ > # (batch, out_seq_length, output_size) : (8, 6, 2)_
