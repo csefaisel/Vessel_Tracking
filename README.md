@@ -22,7 +22,7 @@ batch_size = 8
 ### input sample 
 x = torch.rand(batch_size, seq_length[0], input_size)
 
-### create object of Model
+### create object of the Model
 model = vTrack(input_size, hidden_size, num_layers, output_size, seq_length[1])
 
 ### Feed the sample to the Model
