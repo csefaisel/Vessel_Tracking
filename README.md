@@ -6,7 +6,7 @@ Unofficial Implementation of Paper: _[Unofficial Implementation of Paper: Deep L
 
 ## Steps to use this repo:
 
-### import necessary modules
+- ### import necessary modules
 > __import torch__ \
 > __from vTrack.vTrack import vTrack__
 
