@@ -27,4 +27,5 @@ Unofficial Implementation of Paper: _[Unofficial Implementation of Paper: Deep L
 ### Feed the sample to the Model
 > __out = model(x)__ _# (batch, out_seq_length, output_size) : (8, 6, 2)_
 
+> [!WARNING]
 > Errors and Omissions expected!
