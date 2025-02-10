@@ -8,22 +8,22 @@ Prediction based on Recurrent Neural Networks
 ## Steps to use this repo:
 
 ### import necessary modules
-import torch \
-from vTrack.vTrack import vTrack
+__import torch__ \
+__from vTrack.vTrack import vTrack__
 
 ### Declare hyper-parameters
-input_size = 4 \
-output_size = 2 \
-hidden_size = 16 \
-num_layers = 3 \
-seq_length = (12, 6) _# 12 input sequences, 6 output sequences_ \
-batch_size = 8
+__input_size = 4__ \
+__output_size = 2__ \
+__hidden_size = 16__ \
+__num_layers = 3__ \
+__seq_length = (12, 6)__ _# 12 input sequences, 6 output sequences_ \
+__batch_size = 8__
 
 ### input sample 
-x = torch.rand(batch_size, seq_length[0], input_size)
+__x = torch.rand(batch_size, seq_length[0], input_size)__ _# (8, 12, 4)_
 
 ### create object of the Model
-model = vTrack(input_size, hidden_size, num_layers, output_size, seq_length[1])
+__model = vTrack(input_size, hidden_size, num_layers, output_size, seq_length[1])__
 
 ### Feed the sample to the Model
-out = model(x) _# (batch, out_seq_length, output_size) : (8, 6, 2)_
+__out = model(x)__ _# (batch, out_seq_length, output_size) : (8, 6, 2)_
