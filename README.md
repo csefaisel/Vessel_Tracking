@@ -1,4 +1,4 @@
-# Vessel_Tracking
+# Vessel_Trajectory_Prediction
 
 Unofficial Implementation of Paper: Deep Learning Methods for Vessel Trajectory
 Prediction based on Recurrent Neural Networks
