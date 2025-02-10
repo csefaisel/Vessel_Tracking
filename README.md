@@ -1,7 +1,7 @@
 # Vessel_Trajectory_Prediction
 
-Unofficial Implementation of Paper: Deep Learning Methods for Vessel Trajectory
-Prediction based on Recurrent Neural Networks
+Unofficial Implementation of Paper: __Deep Learning Methods for Vessel Trajectory
+Prediction based on Recurrent Neural Networks__
 
 ![vesselTracking](https://github.com/user-attachments/assets/8dd6ef95-6084-4a32-8e5a-27651a37f904)
 
