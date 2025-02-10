@@ -10,7 +10,7 @@ Steps to use this repo:
 import torch
 from vTrack.vTrack import vTrack
 
-# Declare hyper-parameters
+### Declare hyper-parameters
 input_size = 4
 output_size = 2
 hidden_size = 16
